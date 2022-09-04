@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Dosis', sans-serif;
+  overflow-x: hidden;
+}
+
+.hori-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header {
+  background-color: #F53B4D;
+  height: 4rem;
+}
+
+header strong {
+  font-size: 28px;
+  color: #FFFFFF;
+}
+
+nav a {
+  color: #FFFFFF;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+#search-bar input {
+  font-family: inherit;
+  border-radius: 5px;
+  width: 20rem;
+  height: 2rem;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  background-color: #FFFFFF;
+  padding-left: 5px;
+}
+
+#search-bar ::-webkit-input-placeholder {
+  color: #1D1F1F;
+}
+
+#search-bar :-ms-input-placeholder {
+  color: #1D1F1F;
+}
+
+#search-bar ::-ms-input-placeholder {
+  color: #1D1F1F;
+}
+
+#search-bar ::placeholder {
+  color: #1D1F1F;
+}
+
+#search-bar button {
+  color: #FFFFFF;
+  background-color: #1D1F1F;
+  width: 2.5rem;
+  height: 2rem;
+  font-family: inherit;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+main {
+  width: 60%;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.order-status a {
+  text-decoration: none;
+  color: #1D1F1F;
+  font-size: 22px;
+  margin: 0 1.5rem;
+}
+
+.order-status a:hover {
+  color: #F53B4D;
+}
+
+.container {
+  margin: 2rem 0;
+}
+
+.order-detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  padding: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.order-detail span {
+  font-size: 22px;
+}
+
+.order-detail a {
+  color: #F53B4D;
+  font-size: 22px;
+}
+/*# sourceMappingURL=orders.css.map */

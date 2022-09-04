@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Dosis', sans-serif;
+  overflow-x: hidden;
+}
+
+.hori-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header {
+  background-color: #F53B4D;
+  height: 4rem;
+}
+
+header strong {
+  font-size: 28px;
+  color: #FFFFFF;
+}
+
+nav a {
+  color: #FFFFFF;
+  font-size: 28px;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+nav a:hover {
+  color: #1D1F1F;
+}
+
+#special {
+  font-size: 20px;
+  border: 2px solid #FFFFFF;
+  padding: 3px 4px;
+}
+
+#special:hover {
+  border-color: #1D1F1F;
+}
+
+#search-bar input {
+  font-family: inherit;
+  border-radius: 5px;
+  width: 20rem;
+  height: 2rem;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  padding-left: 5px;
+}
+
+#search-bar ::-webkit-input-placeholder {
+  color: #1D1F1F;
+}
+
+#search-bar :-ms-input-placeholder {
+  color: #1D1F1F;
+}
+
+#search-bar ::-ms-input-placeholder {
+  color: #1D1F1F;
+}
+
+#search-bar ::placeholder {
+  color: #1D1F1F;
+}
+
+#search-bar button {
+  color: #FFFFFF;
+  background-color: #1D1F1F;
+  width: 2.5rem;
+  height: 2rem;
+  font-family: inherit;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+footer {
+  height: 15rem;
+  margin-top: 4rem;
+}
+
+section {
+  width: 80%;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 4rem;
+  gap: 10px;
+}
+
+ul {
+  padding: 1rem;
+  width: 18rem;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+ul strong {
+  font-size: 32px;
+  color: #F53B4D;
+}
+
+ul li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+ul li a {
+  color: #1D1F1F;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=shop_by_category.css.map */

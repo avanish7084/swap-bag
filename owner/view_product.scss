@@ -1,0 +1,143 @@
+$-black:#1D1F1F;
+$-white:#FFFFFF;
+$-red:#F53B4D;
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+    overflow-x: hidden;
+}
+
+.hori-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header{
+    background-color: $-red;
+    height: 4rem;
+
+    strong{
+        font-size: 28px;
+        color: $-white;
+    }
+}
+
+nav{
+
+    a{
+        color: $-white;
+        font-size: 18px;
+        text-decoration: none;
+        margin: 0 15px;
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
+
+#search-bar{
+
+    input{
+        font-family: inherit;
+        border-radius: 5px;
+        width: 20rem;
+        height: 2rem;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        background-color: $-white;
+        padding-left: 5px;
+    }
+
+    ::placeholder{
+        color: $-black;
+    }
+
+    button{
+        color: $-white;
+        background-color: $-black;
+        width: 2.5rem;
+        height: 2rem;
+        font-family: inherit;
+        border-radius: 5px;
+        font-size: 20px;
+        text-align: center;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+}
+
+main{
+    width: 60%;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.container{
+    display: flex;
+    gap:1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    padding: 20px 10px;
+
+    #hori-img{
+        width: 50%;
+        height: 20rem;
+    }
+
+    #vert-img{
+        width: 28%;
+        height: 26rem;
+    }
+}
+
+.details{
+    width: 50%;
+    padding: 0 10px;
+
+    h1{
+        font-size: 24px;
+        margin-top: 0;
+        color: $-red;
+    }
+
+    span{
+        font-size: 22px;
+        color: $-black;
+    }
+
+    button{
+        padding: 5px 10px;
+        font-size: 18px;
+        width: 6rem;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+        font-family: inherit;
+        margin: 1rem 1rem 1rem 0;
+        background-color: $-red;
+        color: $-white;
+        border: none;
+        outline: none;
+        cursor: pointer;
+
+        &:hover{
+            transform: scale(1.05);
+        }
+    }
+
+    h2{
+        font-size: 22px;
+        margin: 8px 0;
+        color: $-black;
+    }
+    
+    p{
+        margin: 0;
+        font-size: 18px;
+        color: $-black;
+    }
+}

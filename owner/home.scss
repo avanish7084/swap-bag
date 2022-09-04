@@ -1,0 +1,131 @@
+$-black:#1D1F1F;
+$-white:#FFFFFF;
+$-red:#F53B4D;
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+    overflow-x: hidden;
+}
+
+.hori-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header{
+    background-color: $-red;
+    height: 4rem;
+
+    strong{
+        font-size: 28px;
+        color: $-white;
+    }
+}
+
+nav{
+
+    a{
+        color: $-white;
+        font-size: 22px;
+        text-decoration: none;
+        margin: 0 15px;
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
+
+#search-bar{
+
+    input{
+        font-family: inherit;
+        border-radius: 5px;
+        width: 20rem;
+        height: 2rem;
+        border: none;
+        outline: none;
+        font-size: 20px;
+        background-color: $-white;
+        padding-left: 5px;
+    }
+
+    ::placeholder{
+        color: $-black;
+    }
+
+    button{
+        color: $-white;
+        background-color: $-black;
+        width: 2.5rem;
+        height: 2rem;
+        font-family: inherit;
+        border-radius: 5px;
+        font-size: 20px;
+        text-align: center;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+}
+
+main{
+    width: 80%;
+    margin: 4rem auto 4rem;
+
+    h1{
+        font-size: 24px;
+        margin: 0;
+        padding: 10px;
+        color:  $-black;
+    }
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 2rem;
+    place-items: center;
+    row-gap: 2rem;
+}
+
+.cards{
+    width: 18rem;
+    box-shadow: 0 0 8px rgba(0,0,0,0.4);
+    padding: 10px;
+
+    img{
+        width: 100%;
+        height: 16rem;
+        margin-bottom: 15px;
+    }
+}
+
+.product-name{
+    font-size: 22px;
+    padding-left: 10px;
+    color: $-black;
+}
+
+.bottom{
+    padding: 1rem;
+
+    a{
+        font-size: 20px;
+        letter-spacing: 1px;
+        color: $-white;
+        background-color: $-red;
+        text-decoration: none;
+        padding: 6px 12px;
+        border-radius: 5px;
+    }
+
+    strong{
+        font-size: 22px;
+        float: right;
+        color: $-black;
+    }
+}

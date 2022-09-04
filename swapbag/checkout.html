@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="checkout.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <title>Swapbag</title>
+</head>
+<body>
+    <header class="hori-flex">
+        <strong>SwapBag</strong>
+        <form action="" id="search-bar">
+            <input type="search" name="search-product" id="search-product" placeholder="search products">
+            <button><i class="las la-search"></i></button>
+        </form>
+        <nav class="hori-flex">
+            <a href="shop_by_category.html" id="special">shop by category</a>
+            <a href="landing_page.html"><i class="las la-home"></i></a>
+            <a href="account.html"><i class="las la-user-alt"></i></a>
+            <a href="orders.html"><i class="las la-box"></i></a>
+            <a href="wishlist.html"><i class="las la-bookmark"></i></a>
+            <a href="cart.html"><i class="las la-shopping-cart"></i></a>
+            <a href=""><i class="las la-sign-out-alt"></i> </a>
+        </nav>
+    </header>
+    <main>
+        <section>
+
+            <form action="" id="shippingform">
+                <h1>Shipping Details</h1>
+                <hr>
+                <br>
+                <input class="medium-field" type="text" name="first-name" id="first-name" placeholder="First name" required>
+                <input class="medium-field" type="text" name="last-name" id="last-name" placeholder="Last name" required>
+                <br>
+
+                <input class="medium-field" type="email" name="mail-id" id="mail-id" placeholder="Email id" required>
+                <input class="medium-field" type="tel" name="phone" id="phone" placeholder="phone" required>
+                <br>
+
+                <input class="long-field" type="text" name="location" id="location" placeholder="Location" required>
+                <br>
+
+                <input class="short-field" type="text" name="pincode" id="pincode" placeholder="Pin code" required>
+                <input class="short-field" type="text" name="city" id="city" placeholder="City" required>
+                <input class="short-field" type="text" name="state" id="state" placeholder="State" required>
+                <br><br>
+                <hr>
+                <span>Total Items : 2</span>
+                <span>Total Price : Rs. 1500</span>
+                <button>Pay Now</button>
+            </form>
+
+            <div class="checkout-detail"></div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>

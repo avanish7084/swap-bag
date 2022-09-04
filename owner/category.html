@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="category.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <title>Swapbag</title>
+</head>
+<body>
+    <header class="hori-flex">
+        <strong>SwapBag</strong>
+        <form action="" id="search-bar">
+            <input type="search" name="search-product" id="search-product" placeholder="search products">
+            <button><i class="las la-search"></i></button>
+        </form>
+        <nav class="hori-flex">
+            <a href="home.html">home</a>
+            <a href="account.html">account</a>
+            <a href="add_product.html">add product</a>
+            <a href="">category</a>
+            <a href="orders.html">orders</a>
+            <a href="">logout</a>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <h1 class="shadow">Listed category : 2</h1>
+            <div class="grid">
+                <ul class="box shadow">
+                    <div class="box-heading">
+                        <strong>Atta, Rice & Dal</strong>
+                        <i class="las la-trash-alt"></i>
+                        <i class="las la-edit"></i>
+                    </div>
+                    <li><a href="listed_product.html">Atta</a></li>
+                    <li><a href="listed_product.html">Rice</a></li>
+                    <li><a href="listed_product.html">Poha, Daliya</a></li>
+                    <li><a href="listed_product.html">Masoor, Moong dal</a></li>
+                    <li><a href="listed_product.html">subcategory</a></li>
+                    <li><a href="listed_product.html">Besan, Sooji, Maida</a></li>
+                </ul>
+
+                <ul class="box shadow">
+                    <div class="box-heading">
+                        <strong>Vegetables & Fruits</strong>
+                        <i class="las la-trash-alt"></i>
+                        <i class="las la-edit"></i>
+                    </div>
+                    <li><a href="listed_product.html">Vegetables</a></li>
+                    <li><a href="listed_product.html">Fruits</a></li>
+                    <li><a href="listed_product.html">Frozen Vegetables</a></li>
+                    <li><a href="listed_product.html">Herbs</a></li>
+                    <li><a href="listed_product.html">Flowers</a></li>
+                    <li><a href="listed_product.html">Organic Vegetables</a></li>
+                </ul>
+
+                <ul class="box shadow">
+                    <div class="box-heading">
+                        <strong>Snacks</strong>
+                        <i class="las la-trash-alt"></i>
+                        <i class="las la-edit"></i>
+                    </div>
+                    <li><a href="listed_product.html">Chips</a></li>
+                    <li><a href="listed_product.html">Popcorn</a></li>
+                    <li><a href="listed_product.html">Bhujia & mixtures</a></li>
+                    <li><a href="listed_product.html">Namkeen</a></li>
+                    <li><a href="listed_product.html">Energy bars</a></li>
+                    <li><a href="listed_product.html">Biscuits</a></li>
+                    <li><a href="listed_product.html">Rusks, Wafers</a></li>
+                </ul>
+
+                <ul class="box shadow">
+                    <div class="box-heading">
+                        <strong>Cleaning</strong>
+                        <i class="las la-trash-alt"></i>
+                        <i class="las la-edit"></i>
+                    </div>
+                    <li><a href="listed_product.html">Detergent</a></li>
+                    <li><a href="listed_product.html">Liquid Soap</a></li>
+                    <li><a href="listed_product.html">Face wash</a></li>
+                    <li><a href="listed_product.html">Bathing soap</a></li>
+                    <li><a href="listed_product.html">Floor cleaner</a></li>
+                    <li><a href="listed_product.html">Toilet, Bathroom cleaner</a></li>
+                    <li><a href="listed_product.html">Dishwashing products</a></li>
+                </ul>
+
+                <ul class="box shadow">
+                    <div class="box-heading">
+                        <strong>Sweets</strong>
+                        <i class="las la-trash-alt"></i>
+                        <i class="las la-edit"></i>
+                    </div>
+                    <li><a href="listed_product.html">Chocolates</a></li>
+                    <li><a href="listed_product.html">Candies & Gum</a></li>
+                    <li><a href="listed_product.html">Indian sweets</a></li>
+                    <li><a href="listed_product.html">Cakes & Rolls</a></li>
+                </ul>
+
+                <ul class="box shadow">
+                    <div class="box-heading">
+                        <strong>Dairy, Bread & Eggs</strong>
+                        <i class="las la-trash-alt"></i>
+                        <i class="las la-edit"></i>
+                    </div>
+                    <li><a href="listed_product.html">Milk</a></li>
+                    <li><a href="listed_product.html">Curd, Yogurt</a></li>
+                    <li><a href="listed_product.html">Cheese, Paneer, Tofu</a></li>
+                    <li><a href="listed_product.html">Ice cream</a></li>
+                    <li><a href="listed_product.html">Eggs</a></li>
+                    <li><a href="listed_product.html">Butter</a></li>
+                </ul>
+            </div>
+        </section>
+        <div class="forms">
+            <form action="" class="shadow" id="add-category-form">
+                <h2>Add category</h2>
+                <input type="text" name="add-category" id="add-category" placeholder="add category">
+                <button id="btn-add-category">Add category</button>
+            </form>
+            <form action="" class="shadow" id="add-sub-category-form">
+                <h2>Add sub category</h2>
+                <select name="category" id="category">
+                    <option value="Electronics">lectronics</option>
+                </select>
+                <input type="text" name="add-sub-category" id="add-sub-category" placeholder="add sub category">
+                <button id="btn-add-sub-category">Add subcategory</button>
+            </form>
+        </div>
+        </main>
+    <footer></footer>
+</body>
+</html>

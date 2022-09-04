@@ -1,0 +1,136 @@
+$-black:#1D1F1F;
+$-white:#FFFFFF;
+$-red:#F53B4D;
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+    overflow-x: hidden;
+}
+
+.hori-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header{
+    background-color: $-red;
+    height: 4rem;
+
+    strong{
+        font-size: 28px;
+        color: $-white;
+    }
+}
+
+nav{
+
+    a{
+        color: $-white;
+        font-size: 20px;
+        text-decoration: none;
+        margin: 0 15px;
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
+
+#search-bar{
+
+    input{
+        font-family: inherit;
+        border-radius: 5px;
+        width: 20rem;
+        height: 2rem;
+        border: none;
+        outline: none;
+        font-size: 20px;
+        background-color: $-white;
+        padding-left: 5px;
+    }
+
+    ::placeholder{
+        color: $-black;
+    }
+
+    button{
+        color: $-white;
+        background-color: $-black;
+        width: 2.5rem;
+        height: 2rem;
+        font-family: inherit;
+        border-radius: 5px;
+        font-size: 20px;
+        text-align: center;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+}
+
+main{
+    width: 60%;
+    margin: auto;
+    margin-top: 4rem;
+
+    h1{
+        font-size: 28px;
+        margin: 0;
+        padding: 10px;
+        color: $-red;
+    }
+}
+
+.container{
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.order-detail{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    padding: 15px;
+    gap:10px;
+
+    strong,span{
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+}
+
+
+.product-box{
+    display: flex;
+    padding: 10px 0;
+
+    img{
+        width: 14rem;
+        height: 12rem;
+    }
+}
+
+
+.detail{
+    padding-left: 2rem;
+
+    h2{
+        margin-top: 0;
+        font-size: 26px;
+
+        a{
+            text-decoration: none;
+            color: $-red;
+        }
+    }
+
+    strong{
+        font-size: 22px;
+        margin-right: 4rem;
+    }
+}

@@ -1,0 +1,157 @@
+$-black:#1D1F1F;
+$-white:#FFFFFF;
+$-red:#F53B4D;
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+    overflow-x: hidden;
+}
+
+.hori-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header{
+    background-color: $-red;
+    height: 4rem;
+
+    strong{
+        font-size: 28px;
+        color: $-white;
+    }
+}
+
+nav{
+
+    a{
+        color: $-white;
+        font-size: 28px;
+        text-decoration: none;
+        margin: 0 15px;
+
+        &:hover{
+            color: $-black;
+        }
+    }
+}
+
+#special{
+    font-size: 22px;
+    border: 2px solid $-white;
+    padding: 3px 4px;
+
+    &:hover{
+        border-color: $-black;
+    }
+}
+
+#search-bar{
+
+    input{
+        font-family: inherit;
+        border-radius: 5px;
+        width: 20rem;
+        height: 2rem;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        background-color: $-white;
+        padding-left: 5px;
+    }
+
+    ::placeholder{
+        color: $-black;
+    }
+
+    button{
+        color: $-white;
+        background-color: $-black;
+        width: 2.5rem;
+        height: 2rem;
+        font-family: inherit;
+        border-radius: 5px;
+        font-size: 20px;
+        text-align: center;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+}
+
+footer{
+    height: 15rem;
+    margin-top: 4rem;
+}
+
+section{
+    width: 40%;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+#userform{
+    margin-top: 2rem;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+
+    h1{
+        margin: 5px;
+        font-size: 32px;
+        color: $-red;
+    }
+
+    input{
+        font-size: 20px;
+        font-family: inherit;
+        margin: 5px;
+        height: 2.5rem;
+        border: 2px solid $-black;
+        outline-color: $-red;
+    }
+
+    ::placeholder{
+        color: $-black;
+    }
+
+    button{
+        font-size: 24px;
+        font-family: inherit;
+        width: 12rem;
+        height: 3rem;
+        padding: 5px 10px;
+        background-color: $-red;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        color: $-white;
+        margin: auto;
+        cursor: pointer;
+
+        &:hover{
+            transform: scale(1.05);
+        }
+    }
+
+    a{
+        color: $-red;
+        font-size: 22px;
+        float: right;
+    }
+}
+
+.short-field{
+    width: 14rem;
+}
+
+.medium-field{
+    width: 22rem;
+}
+
+.long-field{
+    width: 45rem;
+}

@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Dosis', sans-serif;
+  overflow-x: hidden;
+}
+
+.hori-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header {
+  background-color: #F53B4D;
+  height: 4rem;
+}
+
+header strong {
+  font-size: 28px;
+  color: #FFFFFF;
+}
+
+nav a {
+  color: #FFFFFF;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+#search-bar input {
+  font-family: inherit;
+  border-radius: 5px;
+  width: 20rem;
+  height: 2rem;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  background-color: #FFFFFF;
+  padding-left: 5px;
+}
+
+#search-bar ::-webkit-input-placeholder {
+  color: #1D1F1F;
+}
+
+#search-bar :-ms-input-placeholder {
+  color: #1D1F1F;
+}
+
+#search-bar ::-ms-input-placeholder {
+  color: #1D1F1F;
+}
+
+#search-bar ::placeholder {
+  color: #1D1F1F;
+}
+
+#search-bar button {
+  color: #FFFFFF;
+  background-color: #1D1F1F;
+  width: 2.5rem;
+  height: 2rem;
+  font-family: inherit;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+main {
+  width: 30%;
+  margin: 4rem auto 4rem;
+}
+
+#userform {
+  padding: 10px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+#userform h2 {
+  margin: 5px;
+  font-size: 32px;
+  color: #F53B4D;
+}
+
+#userform strong {
+  font-size: 24px;
+  margin: 15px 0 0 8px;
+}
+
+#userform ::-webkit-input-placeholder {
+  color: #1D1F1F;
+}
+
+#userform :-ms-input-placeholder {
+  color: #1D1F1F;
+}
+
+#userform ::-ms-input-placeholder {
+  color: #1D1F1F;
+}
+
+#userform ::placeholder {
+  color: #1D1F1F;
+}
+
+#userform button {
+  font-size: 22px;
+  font-family: inherit;
+  width: 12rem;
+  height: 2.5rem;
+  padding: 8px 16px;
+  background-color: #F53B4D;
+  -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: #FFFFFF;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#userform button:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.inputs {
+  width: 24rem;
+  font-size: 20px;
+  font-family: inherit;
+  margin: 10px;
+  height: 1.8rem;
+  outline-color: #F53B4D;
+}
+
+#product_image {
+  font-size: 20px;
+  font-family: inherit;
+  margin: 10px;
+}
+/*# sourceMappingURL=add_product.css.map */

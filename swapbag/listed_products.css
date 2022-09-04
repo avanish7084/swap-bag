@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Dosis', sans-serif;
+  overflow-x: hidden;
+}
+
+.hori-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header {
+  background-color: #F53B4D;
+  height: 4rem;
+}
+
+header strong {
+  font-size: 28px;
+  color: #FFFFFF;
+}
+
+nav a {
+  color: #FFFFFF;
+  font-size: 24px;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+nav a:hover {
+  color: #1D1F1F;
+}
+
+#special {
+  font-size: 18px;
+  border: 2px solid #FFFFFF;
+  padding: 3px 4px;
+}
+
+#special:hover {
+  border-color: #1D1F1F;
+}
+
+#search-bar input {
+  font-family: inherit;
+  border-radius: 5px;
+  width: 20rem;
+  height: 2rem;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  padding-left: 5px;
+}
+
+#search-bar ::-webkit-input-placeholder {
+  color: #1D1F1F;
+}
+
+#search-bar :-ms-input-placeholder {
+  color: #1D1F1F;
+}
+
+#search-bar ::-ms-input-placeholder {
+  color: #1D1F1F;
+}
+
+#search-bar ::placeholder {
+  color: #1D1F1F;
+}
+
+#search-bar button {
+  color: #FFFFFF;
+  background-color: #1D1F1F;
+  width: 2.5rem;
+  height: 2rem;
+  font-family: inherit;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+footer {
+  height: 15rem;
+  margin-top: 4rem;
+}
+
+#banner {
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+#banner img {
+  width: 100%;
+}
+
+.show-case {
+  width: 80%;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 4rem;
+  place-items: center;
+  row-gap: 3rem;
+}
+
+.cards {
+  width: 20rem;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  padding: 10px;
+}
+
+.cards img {
+  width: 100%;
+  height: 16rem;
+  margin-bottom: 20px;
+}
+
+.product-name {
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.bottom {
+  padding: 5px 10px;
+}
+
+.bottom a {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: black;
+  border: 2px solid black;
+  text-decoration: none;
+  padding: 2px 6px;
+  font-weight: bold;
+}
+
+.bottom strong {
+  font-size: 22px;
+  float: right;
+}
+/*# sourceMappingURL=listed_products.css.map */
